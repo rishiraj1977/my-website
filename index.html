@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MY Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #FB8122;
+  color:#1D2228;
+}
+
+
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(93, 17, 233);
+}
+
+/* Style the navigation bar links */
+.navbar b {
+  float: left;
+  display: block;
+  color: rgb(240, 17, 17);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar b.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar b:hover {
+  background-color: rgb(185, 27, 27);
+  color: rgb(49, 37, 218);
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #2a7880;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color:#00458B;
+  padding: 90px;
+}
+
+a:link, a:visited {
+  background-color:#e3f112;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration:wavy;
+  display:flow-root;
+border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(22, 11, 11);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar b {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>MY WEBSITE</h1>
+  <p>A WEBSITE CREATED BY ME.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://rishirajpandey.whjr.site/">my another Website</a>
+  <a href="http://dpsudaipur.com/ProgramFiles/Login/HomePage.aspx">my school website</a>
+  
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>::ABOUT ME::</h2>
+    <h5>PHOTO OF ME:</h5>
+    <img src="./images/picture of me.jpg"  width="400" height="400">
+    <h2>MY NAME IS RISHIRAJ PANDEY </h2>
+    <h2>I STUDY IN 9 STANDARED</h2>
+    <h2> MY SCHOOL NAME IS DELHI PUBLIC SCHOOL UDAIPUR RAJASTHAN</h2>
+    <h3>::CREATIONS::</h3>
+    <p>THESE ARE SOME GAMES DESIGNED BY ME </p>
+    <div class=projects style="height:60px;"><a href="https://editor.p5js.org/whitehatjr/present/ePJrHCACM#" target="_blank">TREX RUNNER GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://studio.code.org/projects/gamelab/jvT_s2t1AjglWA7glvo5Ktd77j1FfM2p-rSuxG_AybQ">PONG GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://studio.code.org/projects/gamelab/U32AtMT6mQtW7-usqTJbvbnF1bLG47TvvWUyoALcEJ0">PIANO GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://studio.code.org/projects/gamelab/_QZLO9sOP34zTEJhdBFp1eqBb5ZIKeNPfP9Hhf9j2ks">BREAK OUT ARCADE GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://studio.code.org/projects/gamelab/BdQVfQi-e9OBY8rqTkX1LH_fM0zoRV2sxJz8k5ruRmc">SPACE SHOOTER GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://snack.expo.io/@rishiraj1977/4c68a5">COVID-19 APP</a></div>
+    <div class=projects style="height:60px;"><a href="https://snack.expo.io/@rishiraj1977/e75ab5">DJ AUDIO MIXER APP</a></div>
+    <div class=projects style="height:60px;"><a href="https://snack.expo.io/@rishiraj1977/4a83d8">OFFLINE DICTIONARY APP</a></div>
+    <div class=projects style="height:60px;"><a href="https://snack.expo.io/@rishiraj1977/dea90f">MONKEY CHUNKY APP</a></div>
+    <div class=projects style="height:60px;"><a href="https://snack.expo.io/@rishiraj1977/buzzer">BUZZER APP</a></div>
+    <div class=projects style="height:60px;"><a href="https://snack.expo.io/@rishiraj1977/d8a3b3">NEWSLETTER APP</a></div>
+    <div class=projects style="height:60px;"><a href="https://rishiraj1977.github.io/colour-raindrop/">RAINDROP PATTERNSS</a></div>
+    <div class=projects style="height:60px;"><a href="https://rishiraj1977.github.io/target-shooting-cannin/">TARGET SHOOTING CANNON GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://rishiraj1977.github.io/BOX-OF-BOXES/">BOX OF BOXES GAME</a></div>
+    <div class=projects style="height:60px;"><a href="https://rishiraj1977.github.io/stick-castle/">STICK CASTLE</a></div>
+
+  </div>
+
+  <div class="main">
+
+    <h2>MY CERTIFICATES </h2>
+    <p>CERTIFICATE 1</p>
+    <img src="./images/86240279_842683676193164_1457326637400981504_n (1).png"  width="500" height="700">
+    <br>
+
+    <p>CERTIFICATE 2</p>
+  <img src="./images/certificate 2.png"  width="500" height="700">
+    
+  </div>
+
+
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
